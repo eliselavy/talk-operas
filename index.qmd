@@ -1,9 +1,9 @@
 ---
-title: "Infrastructures in the Making: Local Experiments and Systemic Change in Open Science"
-subtitle: "“Thinkering” with Digital Research Infrastructures for Open Science in Humanities"
+title: "“Thinkering” with Digital Research Infrastructures for Open Science in Humanities"
+subtitle: "Infrastructures in the Making: Local Experiments and Systemic Change in Open Science"
 authors: 
-  - name: Frédéric Clavert
-    orcid: 0000-0002-0237-2532
+  - name: Tugce Karatas
+    orcid: 0000-0002-9446-4679
     affiliations: Luxembourg Centre for Contemporary and Digital History (C²DH)
   - name: Elisabeth Guerard
     orcid: 0000-0001-7742-4141
