@@ -1,0 +1,92 @@
+---
+title: "Infrastructures in the Making: Local Experiments and Systemic Change in Open Science"
+subtitle: "“Thinkering” with Digital Research Infrastructures for Open Science in Humanities"
+authors: 
+  - name: Frédéric Clavert
+    orcid: 0000-0002-0237-2532
+    affiliations: Luxembourg Centre for Contemporary and Digital History (C²DH)
+  - name: Elisabeth Guerard
+    orcid: 0000-0001-7742-4141
+    affiliations: Luxembourg Centre for Contemporary and Digital History (C²DH)
+lang: fr
+editor: source
+format:
+  revealjs: 
+    slide-number: true
+    # template-partials:
+    #  - title-slide.html
+    theme: [default]
+    logo: img/logo-operas.png
+    header-logo: img/logo-operas.png
+#    hide-from-titleSlide: text
+    footer: "OPERAS 2026 - 21 May 2026"
+    scrollable: TRUE
+    smaller: TRUE
+    overview: TRUE
+    chalkboard: TRUE
+#    transition: fade
+    transition-speed: fast
+    bibliography: biblio.bib
+    menu: TRUE
+    css: style.css
+    # pointer:
+    #  pointerSize: 20
+    #  color: 'red4'
+#krevealjs-plugins:
+#  - pointer
+# filters:
+#  - reveal-header
+engine: markdown
+---
+
+# Open science and digital infrastructures
+
+- Who are we?
+- How we work?
+- General view
+Open science no national guidelines - no national repository
+
+
+::: notes 
+
+:::
+
+# C2DH and DRI
+
+- DRI people
+- DRI toolbox
+GitLab, Nainuwa, Dataverse, Nodegoat, CatDV, Orbilu, Transkribus
+
+
+# The challenge
+
+see Abstract
+- Quality of the datas 
+- Legal requirements
+- Preservation
+- No common solution
+
+# “Thinkering”
+
+- To the beginning of the project to the end
+- In house / off-the-shelf
+
+# Cost and benefit
+
+First trial with commercial solution
+
+# Conclusion
+
+- Pression to innovate
+- Open science required more time
+
+# What we need
+
+Intermediate place - try to find solution IN-BETWEEN
+
+Use feedback of the user
+
+> MISSION to comply with the open science
+
+# Bibliography
+
