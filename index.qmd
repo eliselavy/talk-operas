@@ -8,7 +8,7 @@ authors:
   - name: Elisabeth Guerard
     orcid: 0000-0001-7742-4141
     affiliations: Luxembourg Centre for Contemporary and Digital History (C²DH)
-lang: fr
+lang: en
 editor: source
 format:
   revealjs: 
@@ -83,6 +83,7 @@ First trial with commercial solution
 # What we need
 
 Intermediate place - try to find solution IN-BETWEEN
+@MounierDumasPrimbault2023
 
 Use feedback of the user
 
