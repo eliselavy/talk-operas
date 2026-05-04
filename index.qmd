@@ -48,37 +48,122 @@ Open science no national guidelines - no national repository
 
 
 ::: notes 
+120 peoples  - contemporary and digital history - 4 axes 
+and  directly DRI 
 
-:::
+part of the university - no nationa level
+::: 
 
 # C2DH and DRI
 
 - DRI people
 - DRI toolbox
-GitLab, Nainuwa, Dataverse, Nodegoat, CatDV, Orbilu, Transkribus
+
+```{dot}
+graph G {
+  layout=neato
+  rankdir=LR
+
+  // Clusters as nodes
+  RSD [label="Research software dev" shape=box style=filled fillcolor="#EAF3DE" color="#3B6D11" fontcolor="#27500A" penwidth=2]
+  OS  [label="Open science"          shape=box style=filled fillcolor="#E6F1FB" color="#185FA5" fontcolor="#0C447C" penwidth=2]
+  DG  [label="Data governance"       shape=box style=filled fillcolor="#EEEDFE" color="#534AB7" fontcolor="#3C3489" penwidth=2]
+
+  // Tool nodes
+  GitLab      [label="GitLab / GitHub"           shape=ellipse style=filled fillcolor="#F1EFE8" color="#5F5E5A"]
+  HF          [label="HuggingFace / OpenAI / AWS" shape=ellipse style=filled fillcolor="#F1EFE8" color="#5F5E5A"]
+  Impresso    [label="Impresso data lab"          shape=ellipse style=filled fillcolor="#F1EFE8" color="#5F5E5A"]
+  Nainuwa     [label="Nainuwa - Muse"             shape=ellipse style=filled fillcolor="#F1EFE8" color="#5F5E5A"]
+  Transkribus [label="Transkribus"                shape=ellipse style=filled fillcolor="#F1EFE8" color="#5F5E5A"]
+  Orbilu      [label="Orbilu / Zenodo"            shape=ellipse style=filled fillcolor="#F1EFE8" color="#5F5E5A"]
+  Omeka       [label="Omeka"                      shape=ellipse style=filled fillcolor="#F1EFE8" color="#5F5E5A"]
+  JDH         [label="Digital monography / JDH"  shape=ellipse style=filled fillcolor="#F1EFE8" color="#5F5E5A"]
+  Dataverse   [label="Dataverse"                  shape=ellipse style=filled fillcolor="#F1EFE8" color="#5F5E5A"]
+  Nodegoat    [label="Nodegoat"                   shape=ellipse style=filled fillcolor="#F1EFE8" color="#5F5E5A"]
+  CatDV       [label="CatDV"                      shape=ellipse style=filled fillcolor="#F1EFE8" color="#5F5E5A"]
+
+  // Research software dev edges (green)
+  RSD -- GitLab      [color="#3B6D11"]
+  RSD -- HF          [color="#3B6D11"]
+  RSD -- Impresso    [color="#3B6D11"]
+  RSD -- Nainuwa     [color="#3B6D11"]
+  RSD -- Transkribus [color="#3B6D11"]
+
+  // Open science edges (blue)
+  OS -- Orbilu      [color="#185FA5"]
+  OS -- Omeka       [color="#185FA5"]
+  OS -- JDH         [color="#185FA5"]
+  OS -- Dataverse   [color="#185FA5"]
+  OS -- Transkribus [color="#185FA5"]
+  OS -- GitLab      [color="#185FA5"]
+
+  // Data governance edges (purple)
+  DG -- Dataverse   [color="#534AB7"]
+  DG -- Nodegoat    [color="#534AB7"]
+  DG -- CatDV       [color="#534AB7"]
+  DG -- Orbilu      [color="#534AB7"]
+  DG -- GitLab      [color="#534AB7"]
+  DG -- Impresso    [color="#534AB7"]
+  DG -- Omeka       [color="#534AB7"]
+}
+```
+
+::: notes 
+
+Presented with the 3 pillars: 
+
+Dataverse own instance
+Transkribus general account
+Nodegoat own instance - test user 
+CatDV university level - media 
+Orbilu luxembourgish zeonodo
+GitLab / GitHub / HuggingFace / OpenAI / AWS 
+Nainuwa - Muse 
+Omeka maison du son / history gesinn
+Impresso data lab 
+Digital monography / JDH
+:::
+
 
 
 # The challenge
 
-see Abstract
 - Quality of the datas 
 - Legal requirements
 - Preservation
 - No common solution
+- Not miss the potential of AI - pression to innovate
+
+::: notes 
+:::
 
 # “Thinkering”
 
 - To the beginning of the project to the end
 - In house / off-the-shelf
 
+::: notes 
+versatility of tools how to control 
+
+:::
+
 # Cost and benefit
 
 First trial with commercial solution
+![](./img/cost_benefit_comparaison.png){.r-stretch fig-align="center"}
+
+::: notes 
+Example of the RAG
+::: 
 
 # Conclusion
 
-- Pression to innovate
-- Open science required more time
+
+- Open science required more time and culture 
+
+::: notes 
+thanks to network - inspiration for us 
+::: 
 
 # What we need
 
@@ -88,6 +173,12 @@ Intermediate place - try to find solution IN-BETWEEN
 Use feedback of the user
 
 > MISSION to comply with the open science
+
+::: notes 
+GRid500 
+
+
+:::
 
 # Bibliography
 
