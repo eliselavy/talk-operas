@@ -58,9 +58,6 @@ part of the university - no nationa level
 
 # C2DH and DRI
 
-- DRI people
-- DRI toolbox
-
 ```{dot}
 graph G {
   layout=neato
@@ -125,31 +122,29 @@ At the university level:
 - GitLab
 
 At the C2DH level
-| Phase | Tool | Definition |
-|-------|------|------------|
-| **Collect** | Transkribus *(general account)* | Handwritten text recogniser |
-| **Collect** | Nodegoat *(own instance)* | Relational data modeller |
-| **Collect** | Muse | Multimedia search engine | Home made
-| **Archive** | Dataverse *(own instance)* | Research data repository |
-| **Archive** | Nainuwa | Digital library system |
-| **Publish** | Omeka | Digital collections publisher |
+- Transkribus *(general account)* | Handwritten text recogniser |
+- Nodegoat *(own instance)* | Relational data modeller |
+
+- Dataverse *(own instance)* | Research data repository |
+- Nainuwa | Digital library system |
+- Omeka | Digital collections publisher |
 
 Home made:
 - Impresso data lab 
 - Digital monography / JDH
-
+- Muse | Multimedia search engine | Home made
 
 - Global solution 
 GitHub / HuggingFace / OpenAI / AWS 
-| **Infrastructure** | GitHub *(own instance)* | Code version control |
-| **Infrastructure** | HuggingFace | Model & dataset hub |
-| **Infrastructure** | OpenAI | AI API provider |
-| **Infrastructure** | AWS | Cloud computing platform |
+Code version control 
+Model & dataset hub 
+AI API provider 
+Cloud computing platform 
 
 
 :::
 
-# At the C2DH level
+# At the different stages of the research lifecycle
 
 | Phase | Tool | Definition | Cluster |
 |-------|------|------------|---------|
@@ -158,11 +153,22 @@ GitHub / HuggingFace / OpenAI / AWS
 | **Collect** | Muse | Multimedia search engine | Research software dev |
 | **Archive** | Dataverse *(own instance)* | Research data repository | Open science · Data governance |
 | **Archive** | Nainuwa | Digital library system | Open science · Data governance |
+
+# At the different stages of the research lifecycle
+
+| Phase | Tool | Definition | Cluster |
+|-------|------|------------|---------|
 | **Publish** | Omeka | Digital collections publisher | Open science · Data governance |
-| **Infrastructure** | GitHub *(own instance)* | Code version control | Research software dev · Data governance |
+| **Infrastructure** | GitHub / Gitlab *(own instance)* | Code version control | Research software dev · Data governance |
 | **Infrastructure** | HuggingFace | Model & dataset hub | Research software dev · Data governance |
 | **Infrastructure** | OpenAI | AI API provider | Research software dev |
 | **Infrastructure** | AWS | Cloud computing platform | Research software dev · Data governance |
+
+
+::: notes 
+Sovereignty spectrum 
+Maintenance cost vs adaptability trade-off 
+Institutional layering creates fragility —
 
 # The challenge
 
