@@ -169,6 +169,7 @@ Cloud computing platform
 Sovereignty spectrum 
 Maintenance cost vs adaptability trade-off 
 Institutional layering creates fragility —
+:::
 
 # The challenge
 
