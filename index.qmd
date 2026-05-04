@@ -48,7 +48,9 @@ Open science no national guidelines - no national repository
 
 
 ::: notes 
-120 peoples  - contemporary and digital history - 4 axes 
+120 peoples  - contemporary and digital history - one of 4 Interdisciplinary Centres 
+4 axes 
+10 years in 2027
 and  directly DRI 
 
 part of the university - no nationa level
@@ -110,21 +112,57 @@ graph G {
 
 ::: notes 
 
-Presented with the 3 pillars: 
+17 members
+11 technical staff
+4 research scientists
+2 postdoc researchers
+12 nationalities
 
-Dataverse own instance
-Transkribus general account
-Nodegoat own instance - test user 
-CatDV university level - media 
-Orbilu luxembourgish zeonodo
-GitLab / GitHub / HuggingFace / OpenAI / AWS 
-Nainuwa - Muse 
-Omeka maison du son / history gesinn
-Impresso data lab 
-Digital monography / JDH
+
+At the university level:
+- CatDV university level - media 
+- Orbilu luxembourgish zeonodo
+- GitLab
+
+At the C2DH level
+| Phase | Tool | Definition |
+|-------|------|------------|
+| **Collect** | Transkribus *(general account)* | Handwritten text recogniser |
+| **Collect** | Nodegoat *(own instance)* | Relational data modeller |
+| **Collect** | Muse | Multimedia search engine | Home made
+| **Archive** | Dataverse *(own instance)* | Research data repository |
+| **Archive** | Nainuwa | Digital library system |
+| **Publish** | Omeka | Digital collections publisher |
+
+Home made:
+- Impresso data lab 
+- Digital monography / JDH
+
+
+- Global solution 
+GitHub / HuggingFace / OpenAI / AWS 
+| **Infrastructure** | GitHub *(own instance)* | Code version control |
+| **Infrastructure** | HuggingFace | Model & dataset hub |
+| **Infrastructure** | OpenAI | AI API provider |
+| **Infrastructure** | AWS | Cloud computing platform |
+
+
 :::
 
+# At the C2DH level
 
+| Phase | Tool | Definition | Cluster |
+|-------|------|------------|---------|
+| **Collect** | Transkribus *(general account)* | Handwritten text recogniser | Research software dev · Open science |
+| **Collect** | Nodegoat *(own instance)* | Relational data modeller | Research software dev · Data governance |
+| **Collect** | Muse | Multimedia search engine | Research software dev |
+| **Archive** | Dataverse *(own instance)* | Research data repository | Open science · Data governance |
+| **Archive** | Nainuwa | Digital library system | Open science · Data governance |
+| **Publish** | Omeka | Digital collections publisher | Open science · Data governance |
+| **Infrastructure** | GitHub *(own instance)* | Code version control | Research software dev · Data governance |
+| **Infrastructure** | HuggingFace | Model & dataset hub | Research software dev · Data governance |
+| **Infrastructure** | OpenAI | AI API provider | Research software dev |
+| **Infrastructure** | AWS | Cloud computing platform | Research software dev · Data governance |
 
 # The challenge
 
@@ -143,8 +181,9 @@ Digital monography / JDH
 - In house / off-the-shelf
 
 ::: notes 
-versatility of tools how to control 
-
+Tool shapes thought — the choice of tool is never neutral; using AWS versus GRid500, or Omeka versus a custom stack, actively influences research design and what questions become askable
+Versatility as a core skill — knowing when to tinker (build, adapt, hack) versus when to trust an existing tool is itself a research competency, not just a technical one
+Control as an open science value — maintaining the ability to inspect, modify, and share your toolchain is part of reproducibility; black-box off-the-shelf solutions can undermine this
 :::
 
 # Cost and benefit
@@ -176,7 +215,11 @@ Use feedback of the user
 
 ::: notes 
 GRid500 
-
+High-performance computing cluster
+Data sovereignty — GRid500 keeps data on institutional/national infrastructure, making GDPR compliance and data governance straightforward; AWS implies data leaving to commercial US-based servers, raising legal and ethical questions for sensitive research data
+Cost model — GRid500 is typically funded institutionally (no per-use billing); AWS follows a pay-as-you-go model that can escalate quickly at scale
+Reproducibility — both support reproducible pipelines, but GRid500 environments are often fixed and stable; AWS offers more flexibility but also more configuration drift risk
+Open access alignment — GRid500 aligns naturally with public research mandates and open science values; AWS is commercial infrastructure, though widely used in open science workflows
 
 :::
 
