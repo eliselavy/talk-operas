@@ -39,21 +39,24 @@ format:
 engine: markdown
 ---
 
-# Open science and digital infrastructures
-
-- Who are we?
-- How we work?
-- General view
-Open science no national guidelines - no national repository
-
+# A young center, a small country, humanities: where do you begin?
 
 ::: notes 
-120 peoples  - contemporary and digital history - one of 4 Interdisciplinary Centres 
-4 axes 
-10 years in 2027
-and  directly DRI 
+A Young Center, A Small Country, Humanities: Where Do You Begin?
+A Young Center, A Small Country, Humanities — Not Exactly the Easy Path
+A Young Center, A Small Country, Humanities: Because Why Make It Easy?
+revoir le storytelling: 
+challenge developping infrastructure 
+for  humanities 
+in a research center
+part of the university 
+in a small country
+no solution at the national level
+with no culture
 
-part of the university - no nationa level
+to systematic to Local
+réécouter aussi enregistrement de Valérie
+
 ::: 
 
 # C2DH and DRI
@@ -65,8 +68,8 @@ graph G {
 
   // Clusters as nodes
   RSD [label="Research software dev" shape=box style=filled fillcolor="#EAF3DE" color="#3B6D11" fontcolor="#27500A" penwidth=2]
-  OS  [label="Open science"          shape=box style=filled fillcolor="#E6F1FB" color="#185FA5" fontcolor="#0C447C" penwidth=2]
-  DG  [label="Data governance"       shape=box style=filled fillcolor="#EEEDFE" color="#534AB7" fontcolor="#3C3489" penwidth=2]
+  OS  [label="Open science"          shape=box style=filled fillcolor="#E6F1FB" color="#3B6D11" fontcolor="#27500A" penwidth=2]
+  DG  [label="Data governance"       shape=box style=filled fillcolor="#EEEDFE" color="#3B6D11" fontcolor="#27500A" penwidth=2]
 
   // Tool nodes
   GitLab      [label="GitLab / GitHub"           shape=ellipse style=filled fillcolor="#F1EFE8" color="#5F5E5A"]
@@ -142,10 +145,25 @@ AI API provider
 Cloud computing platform 
 
 
+3 pillars
+dans la légende :
+ in house / external
+
 :::
 
-# At the different stages of the research lifecycle
+# Example of use case 
 
+> Involving  the different step of the research lifecycle and multiple tools
+
+AWS - MUse 
+dataverse can not publish
+Orbilu
+2 extrems examples
+
+
+
+
+::: notes 
 | Phase | Tool | Definition | Cluster |
 |-------|------|------------|---------|
 | **Collect** | Transkribus *(general account)* | Handwritten text recogniser | Research software dev · Open science |
@@ -154,7 +172,7 @@ Cloud computing platform
 | **Archive** | Dataverse *(own instance)* | Research data repository | Open science · Data governance |
 | **Archive** | Nainuwa | Digital library system | Open science · Data governance |
 
-# At the different stages of the research lifecycle
+
 
 | Phase | Tool | Definition | Cluster |
 |-------|------|------------|---------|
@@ -164,28 +182,35 @@ Cloud computing platform
 | **Infrastructure** | OpenAI | AI API provider | Research software dev |
 | **Infrastructure** | AWS | Cloud computing platform | Research software dev · Data governance |
 
-
-::: notes 
 Sovereignty spectrum 
 Maintenance cost vs adaptability trade-off 
-Institutional layering creates fragility —
-:::
+Institutional layering creates fragility 
 
-# The challenge
+::: 
 
-- Quality of the datas 
+# The challenges
+
+From the technical and legal perspective
+- Quality of the data
 - Legal requirements
 - Preservation
 - No common solution
 - Not miss the potential of AI - pression to innovate
 
+From a user center perspective
+- Shared culture
+
 ::: notes 
+
 :::
 
 # “Thinkering”
 
-- To the beginning of the project to the end
-- In house / off-the-shelf
+- benchmarcking
+- covering the project to the end
+- balance In house / off-the-shelf
+- maintaining the ability to inspect, modify, and share your tool
+- interoperability between the tools
 
 ::: notes 
 Tool shapes thought — the choice of tool is never neutral; using AWS versus GRid500, or Omeka versus a custom stack, actively influences research design and what questions become askable
@@ -193,32 +218,44 @@ Versatility as a core skill — knowing when to tinker (build, adapt, hack) vers
 Control as an open science value — maintaining the ability to inspect, modify, and share your toolchain is part of reproducibility; black-box off-the-shelf solutions can undermine this
 :::
 
-# Cost and benefit
+# Case study on the search engine : Muse - RAG 
 
-First trial with commercial solution
-![](./img/cost_benefit_comparaison.png){.r-stretch fig-align="center"}
+visual 
+
+# Pro and cons
+
+show the tensions
 
 ::: notes 
-Example of the RAG
+show the tension 
+see page 22 - schema pierre
+to go for RAG
+we create an user-group
+
+in house solution - human cost
+thanks to AI 
+make a test
+technical skills
+
+what we should do?
+highlight all the tensions 
 ::: 
 
 # Conclusion
 
 
 - Open science required more time and culture 
+- Intermediate place - try to find solution IN-BETWEEN
+@MounierDumasPrimbault2023
+Use feedback of the user
+> MISSION to comply with the open science
 
 ::: notes 
 thanks to network - inspiration for us 
+shared practice and experiences 
 ::: 
 
-# What we need
 
-Intermediate place - try to find solution IN-BETWEEN
-@MounierDumasPrimbault2023
-
-Use feedback of the user
-
-> MISSION to comply with the open science
 
 ::: notes 
 GRid500 
