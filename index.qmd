@@ -2,11 +2,17 @@
 title: "“Thinkering” with Digital Research Infrastructures for Open Science in Humanities"
 subtitle: "Infrastructures in the Making: Local Experiments and Systemic Change in Open Science"
 authors: 
+  - name: Elisabeth Guerard
+    orcid: 0000-0001-7742-4141
+    affiliations: Luxembourg Centre for Contemporary and Digital History (C²DH)
   - name: Tugce Karatas
     orcid: 0000-0002-9446-4679
     affiliations: Luxembourg Centre for Contemporary and Digital History (C²DH)
-  - name: Elisabeth Guerard
-    orcid: 0000-0001-7742-4141
+  - name: Sofia Papastamkou
+    orcid: 0000-0002-5148-1348
+    affiliations: Luxembourg Centre for Contemporary and Digital History (C²DH)
+  - name: Valérie Schafer
+    orcid: 0000-0002-8204-1265
     affiliations: Luxembourg Centre for Contemporary and Digital History (C²DH)
 lang: en
 editor: source
@@ -58,6 +64,10 @@ to systematic to Local
 réécouter aussi enregistrement de Valérie
 
 ::: 
+
+## Mapping the tools
+
+<iframe src='https://flo.uri.sh/visualisation/29059316/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
 
 # C2DH and DRI
 
@@ -121,7 +131,7 @@ graph G {
 
 At the university level:
 - CatDV university level - media 
-- Orbilu luxembourgish zeonodo
+- Orbilu luxembourgish zenodo
 - GitLab
 
 At the C2DH level
@@ -135,10 +145,11 @@ At the C2DH level
 Home made:
 - Impresso data lab 
 - Digital monography / JDH
-- Muse | Multimedia search engine | Home made
+- Muse | Multimedia search engine 
+- Semantic Engine for Multimodal Search 
 
-- Global solution 
-GitHub / HuggingFace / OpenAI / AWS 
+Global solution 
+- GitHub / HuggingFace / OpenAI / AWS 
 Code version control 
 Model & dataset hub 
 AI API provider 
