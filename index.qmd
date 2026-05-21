@@ -1,6 +1,21 @@
 ---
 title: "“Thinkering” with Digital Research Infrastructures for Open Science in Humanities"
 subtitle: "Infrastructures in the Making: Local Experiments and Systemic Change in Open Science"
+title-slide-attributes:
+  data-notes: "We have constantly evolving tools , evolving request and so on
+But imagine you have to do the same in a new center, in a small country,  with no guidelines,with no tradition of open science 
+
+we all share the same goals
+
+We are fortunate we have digital historians 
+but it doesn't mean it 's easy
+
+we have been creating with a ecosystem which is obsessed by GDPR , by security where they claim for open science but nothing is done
+
+where we need to protect data
+where We have researchers who are used to working freely, with whatever tool they prefer. 
+
+imagine how difficult it is "
 authors: 
   - name: Elisabeth Guerard
     orcid: 0000-0001-7742-4141
@@ -45,31 +60,166 @@ format:
 engine: markdown
 ---
 
+
+
 # A young center, a small country, humanities: where do you begin?
 
 ::: notes 
-A Young Center, A Small Country, Humanities: Where Do You Begin?
-A Young Center, A Small Country, Humanities — Not Exactly the Easy Path
-A Young Center, A Small Country, Humanities: Because Why Make It Easy?
-revoir le storytelling: 
-challenge developping infrastructure 
-for  humanities 
-in a research center
-part of the university 
-in a small country
-no solution at the national level
-with no culture
+and we go to explain what you are trying to do
+how we thinker
+The C2DH was founded in 2016. We are based in Luxembourg — a small, multilingual country 
+We have no national framework telling us what to do. 
+So the question we faced was simple: where do you even begin?
+:::
 
-to systematic to Local
-réécouter aussi enregistrement de Valérie
-
-::: 
-
-## Mapping the tools
-
-<iframe src='https://flo.uri.sh/visualisation/29059316/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
 
 # C2DH and DRI
+
+
+![](./img/c2dh_dri.png){.r-stretch fig-align="center"}
+
+::: notes 
+ we are a small unit with 120 peoples distributed accross 5 axes
+and me i belong to the digital research infrastructure
+We are a small team — 17 people in the digital research infrastructure unit, across 12 nationalities, mixing technical staff, research engineers, and researchers. 
+That diversity is a strength, but it also means we don't always share the same culture around tools, openness, or reproducibility. 
+Building infrastructure here is also about building a shared practice.
+::: 
+
+# The challenges
+
+From the technical and legal perspective
+
+- Quality of the data
+- Legal requirements
+- Preservation
+- No common solution
+- Not miss the potential of AI - pression to innovate
+
+From a user-centred perspective
+
+- Shared culture
+
+::: notes
+The challenges come from two directions. 
+On the technical and legal side: data quality is uneven, legal requirements are strict, preservation is complex, and there is no single solution that fits everything. 
+And on top of that, there is real pressure to not miss the AI wave — to innovate, to experiment. 
+On the human side, the hardest challenge is cultural. 
+Getting researchers to document, to share, to use common tools — that takes time. 
+And this is the tension at the heart of open science: we are asked to be transparent and open, but also secure, sovereign, and GDPR-compliant. 
+These goals do not always point in the same direction.
+:::
+
+
+
+# Our DRI ecosystem
+
+<iframe src='https://flo.uri.sh/visualisation/29066223/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+
+::: notes 
+CatDV is a media asset management system hosted at the Media Center of the university
+Transkribus we have a general account
+Notegoat own instance and we become key-user as we have several project on our portfolio
+However, this comes with a tension: exporting data out of Nodegoat is not straightforward, which raises real questions around long-term portability and reproducibility. Once your data is modelled inside Nodegoat's relational structure, migrating it to another system requires significant effort — a reminder that even open-source, self-hosted tools can create forms of dependency."
+Dataverse our own instance behind the firewall
+::: 
+
+# Our DRI ecosystem
+
+![](./img/dri_ecosystem.png){.r-stretch fig-align="center"}
+
+::: notes 
+https://public.flourish.studio/visualisation/29066223/
+::: 
+
+# Example of use case 
+
+
+> Involving the different steps of the research lifecycle and multiple tools
+
+| Stage | Tool | Level |
+|---|---|---|
+| **Planning** | Confluence | ☁️ External cloud |
+| **Collecting** | Nainuwa | 🏛️ C2DH on-premises |
+| **Analysing** | Semantic Engine (AWS) *or* Muse | ☁️ External *vs* 🏛️ Internal |
+| **Publishing** | JDH / Omeka | 🏛️ C2DH |
+| **Archiving** | Dataverse | 🏛️ Behind firewall |
+
+::: notes
+Let me walk you through a concrete example — a project that touches every stage of the research lifecycle. 
+We start planning in Confluence — convenient and collaborative, but hosted externally by Atlassian. 
+Already at the planning stage, our documentation lives outside our walls. 
+Then we collect material through Nainuwa, our own digital library system, on-premises and fully under our control. 
+For analysis, this is where the real tension appears: we can use the Semantic Engine for Multimodal Search, which runs on AWS — powerful and scalable, but external — or Muse, our internal C2DH tool, which keeps everything behind our firewall. Same research need, two very different choices in terms of sovereignty and openness. We publish through the JDH or Omeka, both rooted in open access values. And finally we archive in Dataverse, our own instance, on-premises, behind the firewall — ensuring long-term preservation under our own governance. The same project, from start to finish, crosses multiple levels of control, openness, and dependency. That is the reality of our infrastructure.
+:::
+
+
+# The tensions
+
+Analysing with AWS or Muse — Two search approaches, two trade-offs
+
+**Our pragmatic response**
+
+- We chose AWS to allow experimentation at scale
+- We created a **user group** to collectively assess the trade-offs
+- No perfect answer — every choice is a negotiation between openness, sovereignty, performance, and cost
+
+::: notes
+
+Muse uses keyword search powered by Solr — fast, controlled, fully on-premises. 
+The Semantic Engine uses natural language, making data discovery easier and more intuitive for researchers — but it runs on AWS, outside our walls. It is not just a question of sovereignty, it is also a question of what kind of search experience you offer your users.
+The Semantic Engine runs on AWS: fast and scalable, but the data leaves our institution and we have no control over the code.
+Muse keeps everything behind our firewall — transparent and sovereign — but our team carries the full maintenance burden. 
+We went pragmatic: chose AWS to experiment, but built a user group to evaluate the trade-offs collectively and keep the decision transparent. That is thinkering in practice.
+:::
+
+# “Thinkering”
+
+- Benchmarking tools seriously before adopting them
+
+- Covering the project to the end, not just the exciting early phase
+
+- Balancing in-house development against off-the-shelf adoption
+
+- Maintaining the ability to inspect, modify, and share your tools
+
+- Investing in interoperability between tools
+
+::: notes 
+We call our approach 'thinkering' — a mix of thinking and tinkering. 
+It means benchmarking tools seriously before adopting them. 
+It means following a project through to the end, not just the exciting early phase. 
+It means constantly balancing in-house development against off-the-shelf adoption. 
+Most importantly, it means maintaining the ability to inspect, modify, and share our tools — because a toolchain you cannot understand or open 
+is not compatible with open science. 
+And it means investing in interoperability — tools that talk to each other, that don't create silos. 
+The choice of tool is never neutral.
+AWS and a national grid infrastructure as Grid'5000 (A large-scale scientific computing infrastructure funded by the French public research ecosystem, offering dedicated, configurable clusters for experimental research) are not equivalent choices. They shape what research questions you can ask.
+:::
+
+# Conclusion
+
+- Open science requires more time and culture  
+
+- Find solutions **IN-BETWEEN** — not fully sovereign, not fully open, but always moving in the right direction @MounierDumasPrimbault2023
+
+- Use feedback from our users
+
+- Draw from shared practices and networks like OPERAS
+
+> **Our mission: to comply with the spirit of open science — not just its checkboxes.**
+
+::: notes
+To conclude: open science in a small humanities center is not a switch you flip. It requires time, culture, and a willingness to sit in an uncomfortable in-between — not fully sovereign, not fully open, not fully standardized, but always trying to move in the right direction. 
+Our mission, as we put it, is to comply with the spirit of open science — not just its checkboxes.
+We draw a lot of inspiration from networks like OPERAS, from shared practices across centers, universities. 
+Because the best infrastructure we have built is not a tool — it is a community of people asking the same hard questions. 
+Thank you.
+:::
+
+
+
+# Mapping the tools accross our pillars
 
 ```{dot}
 graph G {
@@ -120,163 +270,10 @@ graph G {
 }
 ```
 
-::: notes 
-
-17 members
-11 technical staff
-4 research scientists
-2 postdoc researchers
-12 nationalities
-
-
-At the university level:
-- CatDV university level - media 
-- Orbilu luxembourgish zenodo
-- GitLab
-
-At the C2DH level
-- Transkribus *(general account)* | Handwritten text recogniser |
-- Nodegoat *(own instance)* | Relational data modeller |
-
-- Dataverse *(own instance)* | Research data repository |
-- Nainuwa | Digital library system |
-- Omeka | Digital collections publisher |
-
-Home made:
-- Impresso data lab 
-- Digital monography / JDH
-- Muse | Multimedia search engine 
-- Semantic Engine for Multimodal Search 
-
-Global solution 
-- GitHub / HuggingFace / OpenAI / AWS 
-Code version control 
-Model & dataset hub 
-AI API provider 
-Cloud computing platform 
-
-
-3 pillars
-dans la légende :
- in house / external
-
-:::
-
-# Example of use case 
-
-> Involving  the different step of the research lifecycle and multiple tools
-
-AWS - MUse 
-dataverse can not publish
-Orbilu
-2 extrems examples
-
-
 
 
 ::: notes 
-| Phase | Tool | Definition | Cluster |
-|-------|------|------------|---------|
-| **Collect** | Transkribus *(general account)* | Handwritten text recogniser | Research software dev · Open science |
-| **Collect** | Nodegoat *(own instance)* | Relational data modeller | Research software dev · Data governance |
-| **Collect** | Muse | Multimedia search engine | Research software dev |
-| **Archive** | Dataverse *(own instance)* | Research data repository | Open science · Data governance |
-| **Archive** | Nainuwa | Digital library system | Open science · Data governance |
-
-
-
-| Phase | Tool | Definition | Cluster |
-|-------|------|------------|---------|
-| **Publish** | Omeka | Digital collections publisher | Open science · Data governance |
-| **Infrastructure** | GitHub / Gitlab *(own instance)* | Code version control | Research software dev · Data governance |
-| **Infrastructure** | HuggingFace | Model & dataset hub | Research software dev · Data governance |
-| **Infrastructure** | OpenAI | AI API provider | Research software dev |
-| **Infrastructure** | AWS | Cloud computing platform | Research software dev · Data governance |
-
-Sovereignty spectrum 
-Maintenance cost vs adaptability trade-off 
-Institutional layering creates fragility 
-
 ::: 
-
-# The challenges
-
-From the technical and legal perspective
-- Quality of the data
-- Legal requirements
-- Preservation
-- No common solution
-- Not miss the potential of AI - pression to innovate
-
-From a user center perspective
-- Shared culture
-
-::: notes 
-
-:::
-
-# “Thinkering”
-
-- benchmarcking
-- covering the project to the end
-- balance In house / off-the-shelf
-- maintaining the ability to inspect, modify, and share your tool
-- interoperability between the tools
-
-::: notes 
-Tool shapes thought — the choice of tool is never neutral; using AWS versus GRid500, or Omeka versus a custom stack, actively influences research design and what questions become askable
-Versatility as a core skill — knowing when to tinker (build, adapt, hack) versus when to trust an existing tool is itself a research competency, not just a technical one
-Control as an open science value — maintaining the ability to inspect, modify, and share your toolchain is part of reproducibility; black-box off-the-shelf solutions can undermine this
-:::
-
-# Case study on the search engine : Muse - RAG 
-
-visual 
-
-# Pro and cons
-
-show the tensions
-
-::: notes 
-show the tension 
-see page 22 - schema pierre
-to go for RAG
-we create an user-group
-
-in house solution - human cost
-thanks to AI 
-make a test
-technical skills
-
-what we should do?
-highlight all the tensions 
-::: 
-
-# Conclusion
-
-
-- Open science required more time and culture 
-- Intermediate place - try to find solution IN-BETWEEN
-@MounierDumasPrimbault2023
-Use feedback of the user
-> MISSION to comply with the open science
-
-::: notes 
-thanks to network - inspiration for us 
-shared practice and experiences 
-::: 
-
-
-
-::: notes 
-GRid500 
-High-performance computing cluster
-Data sovereignty — GRid500 keeps data on institutional/national infrastructure, making GDPR compliance and data governance straightforward; AWS implies data leaving to commercial US-based servers, raising legal and ethical questions for sensitive research data
-Cost model — GRid500 is typically funded institutionally (no per-use billing); AWS follows a pay-as-you-go model that can escalate quickly at scale
-Reproducibility — both support reproducible pipelines, but GRid500 environments are often fixed and stable; AWS offers more flexibility but also more configuration drift risk
-Open access alignment — GRid500 aligns naturally with public research mandates and open science values; AWS is commercial infrastructure, though widely used in open science workflows
-
-:::
 
 # Bibliography
 
