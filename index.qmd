@@ -219,7 +219,7 @@ Thank you.
 
 
 
-# Mapping the tools accross our pillars
+# Mapping the tools accross our pillars  {data-visibility="hidden"}
 
 ```{dot}
 graph G {
